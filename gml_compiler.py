@@ -7,7 +7,7 @@ CHARM = open('player.txt').readline()[1:-2]
 
 def read_file(filename):
     with open(filename) as file:
-        contents = list(map(str.strip, file.readlines()))
+        contents = list(map(str.rstrip, file.readlines()))
     return contents
 
 
