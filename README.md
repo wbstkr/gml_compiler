@@ -1,6 +1,6 @@
 # gml_compiler
 
-If you don't feel like using gm82 to edit your files, it can be daunting to edit really long .gml files. gml_compiler splits .gml files into separate scripts so that it is easier to manage. When you've made your edits, you can recompile it back to the original .gml file.
+If you don't feel like using gm82, it can be daunting to edit really long .gml files. gml_compiler splits .gml files into separate scripts so that it is easier to manage. When you've made your edits, you can recompile it back to the original .gml file.
 
 ## Running the Code
 
