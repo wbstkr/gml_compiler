@@ -43,5 +43,3 @@ if __name__ == "__main__":
         decompile_gml(CHARM + '.gml')
     elif user_input == 'c':
         compile_gml('./' + CHARM + '.gml', DIRECTORY + '/' + OUTLINE + '.txt')
-    else:
-        exit()
