@@ -1,6 +1,6 @@
 # Webby's GML Unpacker
 
-Editing long `.gml` files can be daunting, especially without using gm82. Webby's GML Unpacker simplifies this process by unpacking `.gml` files into a folder of separate scripts, making them easier to manage. Once you've made your edits, you can seamlessly recompile them back into the original `.gml` file.
+Editing long `.gml` files can be daunting, especially without using gm82. Webby's GML Unpacker simplifies this process by unpacking `.gml` files into a folder of separate scripts, making them easier to manage. Once you've made your edits, you can seamlessly repack them back into the original `.gml` file.
 
 This tool provides both a graphical user interface (GUI) and a command-line interface (CLI) to streamline working with GameMaker Language (GML) script files.
 
