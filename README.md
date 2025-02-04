@@ -1,11 +1,102 @@
-# gml_compiler
+# Webby's GML Unpacker
 
-If you don't feel like using gm82, it can be daunting to edit really long .gml files. gml_compiler splits .gml files into separate scripts so that it is easier to manage. When you've made your edits, you can recompile it back to the original .gml file.
+Editing long `.gml` files can be daunting, especially without using gm82. Webby's GML Unpacker simplifies this process by unpacking `.gml` files into a folder of separate scripts, making them easier to manage. Once you've made your edits, you can seamlessly recompile them back into the original `.gml` file.
 
-## Running the Code
+This tool provides both a graphical user interface (GUI) and a command-line interface (CLI) to streamline working with GameMaker Language (GML) script files.
 
-Please download gml_compiler.py or [gml_compiler.exe](https://github.com/wbstkr/gml_compiler/releases/) and place it into the directory containing your .gml file.
 
-If you're using the .py file, run the command `python gml_compiler.py`
+## Features
 
-If you're using the .exe file, just run the application.
+- Unpack a `.gml` file into a folder of individual script files.
+- Pack a folder of scripts back into a `.gml` file.
+- Simple graphical interface for easy usage.
+- Command-line support for automation.
+
+
+## Installation
+
+Download the latest release from the [Releases](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY/releases) section.
+
+For Python users, you can also run the script directly:
+
+```pwsh
+python main.py
+```
+
+
+## Usage (Executable)
+
+### Graphical Interface
+
+If no arguments are provided, the GUI will open by default.:
+
+```pwsh
+gmlunpacker.exe
+```
+
+A simple GUI will appear, allowing you to choose between unpacking or packing `.gml` files.
+
+### Command Line
+
+#### Unpacking a `.gml` file
+
+```pwsh
+gmlunpacker.exe -u <file.gml> [output_directory]
+```
+
+Example:
+
+```pwsh
+gmlunpacker.exe -u my_script.gml extracted_scripts/
+```
+
+#### Packing `.gml` scripts into a single file
+
+```pwsh
+gmlunpacker.exe -p <input_directory> <output_file.gml>
+```
+
+Example:
+
+```pwsh
+gmlunpacker.exe -p extracted_scripts/ my_script.gml
+```
+
+
+## Usage (Python)
+
+### Graphical Interface
+
+If no arguments are provided, the GUI will open by default.:
+
+```pwsh
+python main.py
+```
+
+A simple GUI will appear, allowing you to choose between unpacking or packing `.gml` files.
+
+### Command Line
+
+#### Unpacking a `.gml` file
+
+```pwsh
+python main.py -u <file.gml> [output_directory]
+```
+
+Example:
+
+```pwsh
+python main.py -u my_script.gml extracted_scripts/
+```
+
+#### Packing `.gml` scripts into a single file
+
+```pwsh
+python main.py -p <input_directory> <output_file.gml>
+```
+
+Example:
+
+```pwsh
+python main.py -p extracted_scripts/ my_script.gml
+```
