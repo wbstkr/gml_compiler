@@ -15,7 +15,7 @@ This tool provides both a graphical user interface (GUI) and a command-line inte
 
 ## Installation
 
-Download the latest release from the [Releases](https://github.com/wbstkr/gml_compiler/releases/latest) section.
+Download the latest release from the [Releases](https://github.com/wbstkr/Webby-GML-Unpacker/releases/latest) section.
 
 For Python users, you can also run the script directly:
 
