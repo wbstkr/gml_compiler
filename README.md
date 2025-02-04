@@ -15,7 +15,7 @@ This tool provides both a graphical user interface (GUI) and a command-line inte
 
 ## Installation
 
-Download the latest release from the [Releases](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY/releases) section.
+Download the latest release from the [Releases](https://github.com/wbstkr/gml_compiler/releases/latest) section.
 
 For Python users, you can also run the script directly:
 
